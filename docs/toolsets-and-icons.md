@@ -129,7 +129,7 @@ This means you only need to set the icon once on the toolset, and all tools in t
 
 The MCP protocol supports tool icons via the `icons` field. We provide icons in two formats:
 
-1. **Data URIs** - Base64-encoded PNG images embedded in the tool definition
+1. **Data URIs** - ReBase64-encoded PNG images embedded in the tool definition
 2. **Light/Dark variants** - Both theme variants are provided for proper display
 
 The `octicons.Icons()` function generates the MCP-compatible icon objects:
@@ -157,8 +157,8 @@ icons := octicons.Icons("repo")
 | Discussions | `comment-discussion` |
 | Gists | `logo-gist` |
 | Security Advisories | `shield` |
-| Projects | `project` |
-| Labels | `tag` |
+| Projects | `projects` |
+| Labels | `` |
 | Stargazers | `star` |
 | Notifications | `bell` |
 | Dynamic | `tools` |
